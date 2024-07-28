@@ -1,0 +1,53 @@
+# Ignore Python bytecode
+__pycache__
+*.py[cod]
+*.pyo
+
+# Ignore virtual environment directories
+env
+venv
+fastapi_env
+*.env
+
+# Ignore package directories
+*.egg-info
+.eggs
+dist
+build
+
+# Ignore Docker-related files
+Dockerfile*
+docker-compose.yml
+
+# Ignore git and version control files
+.git
+.gitignore
+
+# Ignore specific files and directories
+# You can add any specific files or directories you want to exclude here
+# For example, if you have a local models directory you want to ignore, add:
+# models/
+
+# Ignore temporary files and directories
+*.swp
+*.bak
+*.tmp
+*.log
+*.orig
+*.old
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore project-specific files
+# Add any additional project-specific files or directories to ignore
+.idea/
+.vscode/
+node_modules/
+
+# Ignore training and test files
+Patients_Files_Test.csv
+Paitients_Files_Train.csv
+
+SepsisNotebook.ipynb
