@@ -1,5 +1,3 @@
-
-
 ### Overview
 This project is made up of two parts. An API for Sepsis Prediction and a Streamlit Sepsis prediction app that leverages the use of an API endpoint for its predictions. This gives stakeholders the opportunity to select a machine learning models to predict the likelihood of sepsis in patients based on various health metrics. This project provides a docker image which is accessible to stakeholders and non-technical stuff irrespective of type of operating system or platform just by following the steps below. 
 
@@ -12,19 +10,19 @@ This project is made up of two parts. An API for Sepsis Prediction and a Streaml
 The model utilizes the following features for prediction:
 
 ##### Feature	Description
-PRG	Plasma glucose (mu U/ml)
-PL	Blood Work Result-1 (mu U/ml)
-PR	Blood Pressure (mm Hg)
-SK	Blood Work Result-2 (mm)
-TS	Blood Work Result-3 (mu U/ml)
-M11	Body mass index (weight in kg/(height in m)^2)
-BD2	Blood Work Result-4 (mu U/ml)
-Age	Patient's age (years)
-Insurance	If a patient holds a valid insurance card
-Sepsis	Target: Positive if a patient in ICU will develop sepsis, and Negative otherwise
+- PRG	Plasma glucose (mu U/ml)
+- PL	Blood Work Result-1 (mu U/ml)
+- PR	Blood Pressure (mm Hg)
+- SK	Blood Work Result-2 (mm)
+- TS	Blood Work Result-3 (mu U/ml)
+- M11	Body mass index (weight in kg/(height in m)^2)
+- BD2	Blood Work Result-4 (mu U/ml)
+- Age	Patient's age (years)
+- Insurance	If a patient holds a valid insurance card
+- Sepsis	Target: Positive if a patient in ICU will develop sepsis, and Negative otherwise
 Getting Started
 Prerequisites
-Ensure you have Docker installed on your system. You can download and install Docker from here.
+- Ensure you have Docker installed on your system. You can download and install Docker from here.
 
 Running the Docker Container
 Pull the Docker image in powershell:
@@ -55,7 +53,7 @@ Contributing
 Contributions are welcome! Please fork this repository and submit pull requests for any improvements or bug fixes.
 
 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+- This project is licensed under the MIT License - see the LICENSE file for details.
 
 Contact
-For any questions or inquiries, please contact tettehosabutey49@gmail.com
+- For any questions or inquiries, please contact tettehosabutey49@gmail.com
